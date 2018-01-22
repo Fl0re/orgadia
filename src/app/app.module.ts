@@ -7,9 +7,14 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { ProfilPage } from '../pages/profil/profil';
+import { TachePage } from '../pages/tache/tache';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+
+
 
 @NgModule({
   declarations: [
@@ -17,9 +22,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    TachePage,
+    ProfilPage
   ],
   imports: [
+    
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
@@ -29,7 +37,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    TachePage,
+    ProfilPage
   ],
   providers: [
     StatusBar,
